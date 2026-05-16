@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "app/__init__.py",
+      "content_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "issue_fingerprints": [
+        "app/__init__.py:no tests detected in review scope"
+      ]
+    },
+    {
+      "path": "app/helpers.py",
+      "content_hash": "05696638d021aa2738c68ab821a0032a36493ad4",
+      "issue_fingerprints": [
+        "app/helpers.py:no targeted test file mapped"
+      ]
+    },
+    {
+      "path": "app/service.py",
+      "content_hash": "0e331c3f69f969b3e9ce95a84a8b328e9c5d3510",
+      "issue_fingerprints": [
+        "app/service.py:function appears unused",
+        "app/service.py:no targeted test file mapped"
+      ]
+    },
+    {
+      "path": "main.py",
+      "content_hash": "108f57f529e39639e8ca1c9bf87c3b31a6522bcb",
+      "issue_fingerprints": [
+        "main.py:no targeted test file mapped"
+      ]
+    }
+  ]
+}

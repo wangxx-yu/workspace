@@ -1,0 +1,22 @@
+{
+  "include_globs": ["**/*.py", "**/*.js", "**/*.ts", "**/*.java"],
+  "exclude_globs": [
+    ".git/**",
+    "node_modules/**",
+    "__pycache__/**",
+    ".venv/**",
+    "venv/**",
+    "dist/**",
+    "build/**"
+  ],
+  "max_workers": 4,
+  "max_files": 500,
+  "max_file_bytes": 200000,
+  "max_total_bytes": 5000000,
+  "llm_timeout_seconds": 30,
+  "llm_max_retries": 2,
+  "model_name": "mock-model",
+  "enable_llm": false,
+  "run_mode": "analyze_only",
+  "output_format": "json"
+}

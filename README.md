@@ -2,6 +2,19 @@
 
 一个按阶段实现的智能代码审查 Agent。
 
+仓库地址：`https://github.com/wangxx-yu/workspace`
+
+## 项目文档
+
+完整项目文档位于 `.monkeycode/docs/`：
+
+- `INDEX.md`: 文档索引
+- `ARCHITECTURE.md`: 系统架构、模块边界、执行流程
+- `INTERFACES.md`: CLI、HTTP API、错误模型、SARIF
+- `DEVELOPER_GUIDE.md`: 环境搭建、运行方式、测试方法
+- `专有概念/`: `Report`、`ReviewContext`、执行模型等核心概念
+- `模块/`: `input`、`context`、`control`、`agents`、`api-and-output` 模块说明
+
 当前已落地的范围：
 
 - 阶段 0：项目骨架、配置、日志、CLI 入口
